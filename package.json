@@ -1,0 +1,23 @@
+{
+  "name": "stats-collector",
+  "version": "1.0.0",
+  "description": "Collector for eBPM stats",
+  "main": "stats-collector.js",
+  "scripts": {
+    "start": "node stats-collector.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DJBnjack/stats-collector.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DJBnjack/stats-collector/issues"
+  },
+  "homepage": "https://github.com/DJBnjack/stats-collector#readme",
+  "dependencies": {
+    "request": "^2.67.0",
+    "statsd-client": "^0.2.1"
+  }
+}
