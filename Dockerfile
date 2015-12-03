@@ -1,5 +1,4 @@
 FROM node:latest
-EXPOSE 3001
 
 # Add node-gyp
 RUN npm install -g node-gyp
